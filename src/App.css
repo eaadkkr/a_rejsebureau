@@ -1,0 +1,109 @@
+/* BASIC CSS RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* NAVIGATION */
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 10%;
+  padding-left: 5%;
+  background-color: rgb(154, 199, 153);
+}
+
+.logo {
+  height: 80px;
+  width: auto;
+}
+
+.menupunkt {
+  padding-left: 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+
+/* TITLER */
+
+.pageTitle {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+
+
+/* HJEM */
+
+.hjemSection {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+}
+
+.hjemTxt {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 60%;
+}
+
+
+
+/* REJSER */
+
+.rejserArticle {
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-bottom: 50px;
+}
+
+.rejserImg {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rejserHeader {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(154, 199, 153);
+  padding: 40px 0px;
+}
+
+.footerCard {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
