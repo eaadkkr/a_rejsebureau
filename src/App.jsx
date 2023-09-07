@@ -6,6 +6,8 @@ import RejserPage from './pages/RejserPage'
 import OmPage from './pages/OmPage'
 import Footer from './components/Footer'
 
+// HEJ!
+
 function App() {
 
   return (
